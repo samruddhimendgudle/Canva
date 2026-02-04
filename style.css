@@ -29,7 +29,7 @@ nav a{
     padding: 4px 8px;
 }
 nav a:hover{
-    background-color: rgb(235, 235, 235);
+    background-color:#404f6d0f;
     border-radius: 4px; 
 
 }
@@ -52,4 +52,43 @@ nav a:hover{
     text-decoration: none;
     background-color: #8b3dff;
     color: white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    /* background-image: linear-gradient(to bottom ,#8b3dff, rgb(79, 136, 255), rgb(253, 253, 255)); */
+    background: linear-gradient(180deg,#584df5 45%,#bfabfc 80%,#ffffff 100%);
+}
+.main-left h1,p,button{ 
+    color: white;
+    
+}
+.main-left h1{ 
+    color: white;
+    font-size: 2rem;
+    font-size: 52px;
+    padding-bottom: 3rem;
+    
+}
+.main-left h1,p,button{ 
+    color: white;
+    
+}
+.main-right video{
+    width:50%;
+    border-radius: 20px;
+
+}
+.main-right
+{
+    position: relative;
+}
+.main-right button{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    background-color: rgba(40, 38, 38, 0.001);
+    border: none;
+
 }
