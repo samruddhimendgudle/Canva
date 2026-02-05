@@ -156,7 +156,7 @@ main {
     #5a32fa 77.89%,
     #7630d7 158.29%
   );
-  color: white;
+  color: white; 
   padding: 8px 16px;
 }
 
@@ -215,3 +215,59 @@ main {
 .cloumn-2-options .bento-1-para {
   color: black;
 }
+/* MAIN SECTION */
+.main{
+  width:90%;
+  margin:80px auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:60px;
+  flex-wrap:wrap;   /* makes it responsive */
+}
+
+/* LEFT SIDE */
+.main-left{
+  flex:1;
+  min-width:320px;
+}
+
+.main-left h1{
+  font-size:56px;
+  margin-bottom:20px;
+  color:#111;
+}
+
+.main-left p{
+  font-size:0.89rem;
+  color:#444;
+  margin-bottom:25px;
+  max-width:520px;
+  line-height:1.5;
+}
+.main-left input{
+  width:80%;
+  padding:10px;
+  border-radius:9px;
+  border:1px solid #ddd;
+  outline:none;
+  margin-right:10px;
+  font-size:16px;
+}
+
+.main-left button{
+  padding:14px 28px;
+  border:none;
+  border-radius:12px;
+  background:linear-gradient(90deg,#8b3dff,#6b5cff);
+  color:white;
+  font-weight:600;
+}
+
+
+.main-right img{
+  width: 70vh;
+  border-radius: 20px;
+}
+
+
