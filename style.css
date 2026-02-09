@@ -1,11 +1,22 @@
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Salman font";
+  src: url("custom-font.woff2");
+}
+
+@font-face {
+  font-family: "Nike font";
+  src: url("HelveticaNowText.d201766e67..woff2");
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "Salman font";
 }
 
 header {
@@ -368,4 +379,40 @@ main {
   margin-top: 24px;
   gap: 24px;
   height: 50vh;
+}
+
+#three-bars {
+  display: none;
+}
+
+.header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Responsive code */
+
+@media (width <= 1024px) {
+  nav,
+  .signup-link {
+    display: none;
+  }
+
+  #three-bars {
+    display: block;
+  }
+
+  .main-first-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+  .hero-right video {
+    width: 88vw;
+  }
 }
